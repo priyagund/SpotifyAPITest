@@ -1,10 +1,202 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SpotifyTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-07T15:16:57" hostname="admin1-HP-EliteBook-Folio-9480m" time="2.514">
+<testsuite name="SpotifyTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-08T07:24:55" hostname="admin1-HP-EliteBook-Folio-9480m" time="3.182">
   <properties/>
-  <testcase name="givenMethodForGettingPlaylistCount" classname="SpotifyTest" time="2.514"/>
+  <testcase name="givenMethodForGettingPlaylistCount" classname="SpotifyTest" time="3.182"/>
   <system-out><![CDATA[{
     "href": "https://api.spotify.com/v1/users/my55whm8jotn3kr4c54svsjq4/playlists?offset=0&limit=20",
     "items": [
+        {
+            "collaborative": false,
+            "description": "New playlist description",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/3Rw7IAyV5DY1ElJ4DGE5OW"
+            },
+            "href": "https://api.spotify.com/v1/playlists/3Rw7IAyV5DY1ElJ4DGE5OW",
+            "id": "3Rw7IAyV5DY1ElJ4DGE5OW",
+            "images": [
+                
+            ],
+            "name": "New add Playlist 1",
+            "owner": {
+                "display_name": "priya",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/my55whm8jotn3kr4c54svsjq4"
+                },
+                "href": "https://api.spotify.com/v1/users/my55whm8jotn3kr4c54svsjq4",
+                "id": "my55whm8jotn3kr4c54svsjq4",
+                "type": "user",
+                "uri": "spotify:user:my55whm8jotn3kr4c54svsjq4"
+            },
+            "primary_color": null,
+            "public": false,
+            "snapshot_id": "Miw4ZDc5MTkyMzAwNzlkM2RhNjkwZmJiZGI3ODQxNTcxODYyYjVhZWQ3",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/playlists/3Rw7IAyV5DY1ElJ4DGE5OW/tracks",
+                "total": 0
+            },
+            "type": "playlist",
+            "uri": "spotify:playlist:3Rw7IAyV5DY1ElJ4DGE5OW"
+        },
+        {
+            "collaborative": false,
+            "description": "new song",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/03AFBeCU0TDWa2BlNRLiUu"
+            },
+            "href": "https://api.spotify.com/v1/playlists/03AFBeCU0TDWa2BlNRLiUu",
+            "id": "03AFBeCU0TDWa2BlNRLiUu",
+            "images": [
+                
+            ],
+            "name": "kumar sanu Songs",
+            "owner": {
+                "display_name": "priya",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/my55whm8jotn3kr4c54svsjq4"
+                },
+                "href": "https://api.spotify.com/v1/users/my55whm8jotn3kr4c54svsjq4",
+                "id": "my55whm8jotn3kr4c54svsjq4",
+                "type": "user",
+                "uri": "spotify:user:my55whm8jotn3kr4c54svsjq4"
+            },
+            "primary_color": null,
+            "public": false,
+            "snapshot_id": "MjYsN2IzZjU0MDAxZGNiZGUzMWYxNTEyN2U4ZWEyNDNlYjJhNzFiZTAyMA==",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/playlists/03AFBeCU0TDWa2BlNRLiUu/tracks",
+                "total": 0
+            },
+            "type": "playlist",
+            "uri": "spotify:playlist:03AFBeCU0TDWa2BlNRLiUu"
+        },
+        {
+            "collaborative": false,
+            "description": "New playlist description",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/2G2osoBM0UfDsU9JIgwYnw"
+            },
+            "href": "https://api.spotify.com/v1/playlists/2G2osoBM0UfDsU9JIgwYnw",
+            "id": "2G2osoBM0UfDsU9JIgwYnw",
+            "images": [
+                
+            ],
+            "name": "My new Playlist 1",
+            "owner": {
+                "display_name": "priya",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/my55whm8jotn3kr4c54svsjq4"
+                },
+                "href": "https://api.spotify.com/v1/users/my55whm8jotn3kr4c54svsjq4",
+                "id": "my55whm8jotn3kr4c54svsjq4",
+                "type": "user",
+                "uri": "spotify:user:my55whm8jotn3kr4c54svsjq4"
+            },
+            "primary_color": null,
+            "public": false,
+            "snapshot_id": "NCwzYWRjMDFmYTA1ZDZkOTEzMTYzN2MxMTcyMDJkZjFlMWZhZTljNjgy",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/playlists/2G2osoBM0UfDsU9JIgwYnw/tracks",
+                "total": 0
+            },
+            "type": "playlist",
+            "uri": "spotify:playlist:2G2osoBM0UfDsU9JIgwYnw"
+        },
+        {
+            "collaborative": false,
+            "description": "New playlist description",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/6lXnp9tUF166pDcU4Ofr5R"
+            },
+            "href": "https://api.spotify.com/v1/playlists/6lXnp9tUF166pDcU4Ofr5R",
+            "id": "6lXnp9tUF166pDcU4Ofr5R",
+            "images": [
+                
+            ],
+            "name": "New add Playlist 1",
+            "owner": {
+                "display_name": "priya",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/my55whm8jotn3kr4c54svsjq4"
+                },
+                "href": "https://api.spotify.com/v1/users/my55whm8jotn3kr4c54svsjq4",
+                "id": "my55whm8jotn3kr4c54svsjq4",
+                "type": "user",
+                "uri": "spotify:user:my55whm8jotn3kr4c54svsjq4"
+            },
+            "primary_color": null,
+            "public": false,
+            "snapshot_id": "MiwyNmI2ZDA3MDQ5MzRkYTI4MjNlYTgyZjI4MzM5NGNmZjY1Y2IwYjAz",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/playlists/6lXnp9tUF166pDcU4Ofr5R/tracks",
+                "total": 0
+            },
+            "type": "playlist",
+            "uri": "spotify:playlist:6lXnp9tUF166pDcU4Ofr5R"
+        },
+        {
+            "collaborative": false,
+            "description": "New playlist description",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/34LOw7TpI8uRC5EDUTUFXy"
+            },
+            "href": "https://api.spotify.com/v1/playlists/34LOw7TpI8uRC5EDUTUFXy",
+            "id": "34LOw7TpI8uRC5EDUTUFXy",
+            "images": [
+                
+            ],
+            "name": "New add Playlist 1",
+            "owner": {
+                "display_name": "priya",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/my55whm8jotn3kr4c54svsjq4"
+                },
+                "href": "https://api.spotify.com/v1/users/my55whm8jotn3kr4c54svsjq4",
+                "id": "my55whm8jotn3kr4c54svsjq4",
+                "type": "user",
+                "uri": "spotify:user:my55whm8jotn3kr4c54svsjq4"
+            },
+            "primary_color": null,
+            "public": false,
+            "snapshot_id": "Miw4Yjc1MzNlY2E5ODkxNmQ4YjZhNDFlNzVlOTIyZDhlMmE2MGFjZWUy",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/playlists/34LOw7TpI8uRC5EDUTUFXy/tracks",
+                "total": 0
+            },
+            "type": "playlist",
+            "uri": "spotify:playlist:34LOw7TpI8uRC5EDUTUFXy"
+        },
+        {
+            "collaborative": false,
+            "description": "New playlist description",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/3diWFPzteoHOSICol94ler"
+            },
+            "href": "https://api.spotify.com/v1/playlists/3diWFPzteoHOSICol94ler",
+            "id": "3diWFPzteoHOSICol94ler",
+            "images": [
+                
+            ],
+            "name": "New add Playlist",
+            "owner": {
+                "display_name": "priya",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/my55whm8jotn3kr4c54svsjq4"
+                },
+                "href": "https://api.spotify.com/v1/users/my55whm8jotn3kr4c54svsjq4",
+                "id": "my55whm8jotn3kr4c54svsjq4",
+                "type": "user",
+                "uri": "spotify:user:my55whm8jotn3kr4c54svsjq4"
+            },
+            "primary_color": null,
+            "public": false,
+            "snapshot_id": "Miw4YjljNjlkNjQzN2E3MjUxN2ExMjIyNDk0MDFjNDkyYWE3YTBlMWZj",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/playlists/3diWFPzteoHOSICol94ler/tracks",
+                "total": 0
+            },
+            "type": "playlist",
+            "uri": "spotify:playlist:3diWFPzteoHOSICol94ler"
+        },
         {
             "collaborative": false,
             "description": "Updated playlist description",
@@ -423,7 +615,7 @@
         },
         {
             "collaborative": false,
-            "description": "New playlist description",
+            "description": "Updated playlist description",
             "external_urls": {
                 "spotify": "https://open.spotify.com/playlist/2I8gikXyEgKbtd464lu4G1"
             },
@@ -432,7 +624,7 @@
             "images": [
                 
             ],
-            "name": "Old",
+            "name": "New Playlist Name",
             "owner": {
                 "display_name": "priya",
                 "external_urls": {
@@ -445,214 +637,25 @@
             },
             "primary_color": null,
             "public": false,
-            "snapshot_id": "MiwzMDNmMjIzYWQxYzA5MDBkMTgxYWI2Mjg4ZmM4N2UyZGFhODMzNDZl",
+            "snapshot_id": "MTEsYmNlNzJlNDZkOTFmNGEwOWJiMWNhZDg0ZTViZGFiNDc1NDY2MjBlOQ==",
             "tracks": {
                 "href": "https://api.spotify.com/v1/playlists/2I8gikXyEgKbtd464lu4G1/tracks",
                 "total": 0
             },
             "type": "playlist",
             "uri": "spotify:playlist:2I8gikXyEgKbtd464lu4G1"
-        },
-        {
-            "collaborative": false,
-            "description": "New playlist description",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/playlist/3mGo7MQyqeGpf3gnucmhjl"
-            },
-            "href": "https://api.spotify.com/v1/playlists/3mGo7MQyqeGpf3gnucmhjl",
-            "id": "3mGo7MQyqeGpf3gnucmhjl",
-            "images": [
-                
-            ],
-            "name": "Old",
-            "owner": {
-                "display_name": "priya",
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/user/my55whm8jotn3kr4c54svsjq4"
-                },
-                "href": "https://api.spotify.com/v1/users/my55whm8jotn3kr4c54svsjq4",
-                "id": "my55whm8jotn3kr4c54svsjq4",
-                "type": "user",
-                "uri": "spotify:user:my55whm8jotn3kr4c54svsjq4"
-            },
-            "primary_color": null,
-            "public": false,
-            "snapshot_id": "MixmMGQyOTRkNmE1M2Y0ZDE4ZDIwMmU3MzgzODEyYjQ3NWFmYzY3ZWEx",
-            "tracks": {
-                "href": "https://api.spotify.com/v1/playlists/3mGo7MQyqeGpf3gnucmhjl/tracks",
-                "total": 0
-            },
-            "type": "playlist",
-            "uri": "spotify:playlist:3mGo7MQyqeGpf3gnucmhjl"
-        },
-        {
-            "collaborative": false,
-            "description": "New playlist description",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/playlist/2oDzgs31qqzD0uhuUUn3Ya"
-            },
-            "href": "https://api.spotify.com/v1/playlists/2oDzgs31qqzD0uhuUUn3Ya",
-            "id": "2oDzgs31qqzD0uhuUUn3Ya",
-            "images": [
-                
-            ],
-            "name": "Old",
-            "owner": {
-                "display_name": "priya",
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/user/my55whm8jotn3kr4c54svsjq4"
-                },
-                "href": "https://api.spotify.com/v1/users/my55whm8jotn3kr4c54svsjq4",
-                "id": "my55whm8jotn3kr4c54svsjq4",
-                "type": "user",
-                "uri": "spotify:user:my55whm8jotn3kr4c54svsjq4"
-            },
-            "primary_color": null,
-            "public": false,
-            "snapshot_id": "Miw4MGU1MDEzNDJhMmQyZDM4NjM2YmNkNDFiZTE3ZjNkZjQ5ODIxOGU0",
-            "tracks": {
-                "href": "https://api.spotify.com/v1/playlists/2oDzgs31qqzD0uhuUUn3Ya/tracks",
-                "total": 0
-            },
-            "type": "playlist",
-            "uri": "spotify:playlist:2oDzgs31qqzD0uhuUUn3Ya"
-        },
-        {
-            "collaborative": false,
-            "description": "New playlist description",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/playlist/5sWPuIz7IakovJJo183V7w"
-            },
-            "href": "https://api.spotify.com/v1/playlists/5sWPuIz7IakovJJo183V7w",
-            "id": "5sWPuIz7IakovJJo183V7w",
-            "images": [
-                
-            ],
-            "name": "Old",
-            "owner": {
-                "display_name": "priya",
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/user/my55whm8jotn3kr4c54svsjq4"
-                },
-                "href": "https://api.spotify.com/v1/users/my55whm8jotn3kr4c54svsjq4",
-                "id": "my55whm8jotn3kr4c54svsjq4",
-                "type": "user",
-                "uri": "spotify:user:my55whm8jotn3kr4c54svsjq4"
-            },
-            "primary_color": null,
-            "public": false,
-            "snapshot_id": "Miw4ZDU5YTEzNWY5ODEyZGE5ZTE4YWJlYWZmMTkyYTNmMWU5NmEwMTQw",
-            "tracks": {
-                "href": "https://api.spotify.com/v1/playlists/5sWPuIz7IakovJJo183V7w/tracks",
-                "total": 0
-            },
-            "type": "playlist",
-            "uri": "spotify:playlist:5sWPuIz7IakovJJo183V7w"
-        },
-        {
-            "collaborative": false,
-            "description": "New playlist description",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/playlist/3jUHMNVM967FKQfPVeCFiY"
-            },
-            "href": "https://api.spotify.com/v1/playlists/3jUHMNVM967FKQfPVeCFiY",
-            "id": "3jUHMNVM967FKQfPVeCFiY",
-            "images": [
-                
-            ],
-            "name": "Old",
-            "owner": {
-                "display_name": "priya",
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/user/my55whm8jotn3kr4c54svsjq4"
-                },
-                "href": "https://api.spotify.com/v1/users/my55whm8jotn3kr4c54svsjq4",
-                "id": "my55whm8jotn3kr4c54svsjq4",
-                "type": "user",
-                "uri": "spotify:user:my55whm8jotn3kr4c54svsjq4"
-            },
-            "primary_color": null,
-            "public": false,
-            "snapshot_id": "MixmNzI2YjVmZTg3YmZlZWI0MTM3YzhmOWM5MThlZTNjZWI2MTFmYTE5",
-            "tracks": {
-                "href": "https://api.spotify.com/v1/playlists/3jUHMNVM967FKQfPVeCFiY/tracks",
-                "total": 0
-            },
-            "type": "playlist",
-            "uri": "spotify:playlist:3jUHMNVM967FKQfPVeCFiY"
-        },
-        {
-            "collaborative": false,
-            "description": "New playlist description",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/playlist/7g2JTpwO5SOvTp8WQmapio"
-            },
-            "href": "https://api.spotify.com/v1/playlists/7g2JTpwO5SOvTp8WQmapio",
-            "id": "7g2JTpwO5SOvTp8WQmapio",
-            "images": [
-                
-            ],
-            "name": "Old",
-            "owner": {
-                "display_name": "priya",
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/user/my55whm8jotn3kr4c54svsjq4"
-                },
-                "href": "https://api.spotify.com/v1/users/my55whm8jotn3kr4c54svsjq4",
-                "id": "my55whm8jotn3kr4c54svsjq4",
-                "type": "user",
-                "uri": "spotify:user:my55whm8jotn3kr4c54svsjq4"
-            },
-            "primary_color": null,
-            "public": false,
-            "snapshot_id": "Miw2MzY1NmY2YTA1ZDE1MTNkMDlhM2I1MWE0MGY3ZjA1ZjQ0YzE1ZDFk",
-            "tracks": {
-                "href": "https://api.spotify.com/v1/playlists/7g2JTpwO5SOvTp8WQmapio/tracks",
-                "total": 0
-            },
-            "type": "playlist",
-            "uri": "spotify:playlist:7g2JTpwO5SOvTp8WQmapio"
-        },
-        {
-            "collaborative": false,
-            "description": "New playlist description",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/playlist/2nwhJzncaEehstXdKvQz54"
-            },
-            "href": "https://api.spotify.com/v1/playlists/2nwhJzncaEehstXdKvQz54",
-            "id": "2nwhJzncaEehstXdKvQz54",
-            "images": [
-                
-            ],
-            "name": "Old",
-            "owner": {
-                "display_name": "priya",
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/user/my55whm8jotn3kr4c54svsjq4"
-                },
-                "href": "https://api.spotify.com/v1/users/my55whm8jotn3kr4c54svsjq4",
-                "id": "my55whm8jotn3kr4c54svsjq4",
-                "type": "user",
-                "uri": "spotify:user:my55whm8jotn3kr4c54svsjq4"
-            },
-            "primary_color": null,
-            "public": false,
-            "snapshot_id": "MixlOTdiMmYzZjZkYTVhMDVhMzM5OGM1ZjUzNzU3NGI5MTA0ZWFjYzVh",
-            "tracks": {
-                "href": "https://api.spotify.com/v1/playlists/2nwhJzncaEehstXdKvQz54/tracks",
-                "total": 0
-            },
-            "type": "playlist",
-            "uri": "spotify:playlist:2nwhJzncaEehstXdKvQz54"
         }
     ],
     "limit": 20,
     "next": "https://api.spotify.com/v1/users/my55whm8jotn3kr4c54svsjq4/playlists?offset=20&limit=20",
     "offset": 0,
     "previous": null,
-    "total": 24
+    "total": 30
 }
-Playlist count: 24
+Playlist count: 30
+palylist id: 03AFBeCU0TDWa2BlNRLiUu
+
+--------playlist is Updated--------
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
