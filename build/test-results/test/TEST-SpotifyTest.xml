@@ -1,661 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SpotifyTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-08T07:24:55" hostname="admin1-HP-EliteBook-Folio-9480m" time="3.182">
+<testsuite name="SpotifyTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-02-08T17:46:12" hostname="admin1-HP-EliteBook-Folio-9480m" time="3.564">
   <properties/>
-  <testcase name="givenMethodForGettingPlaylistCount" classname="SpotifyTest" time="3.182"/>
-  <system-out><![CDATA[{
-    "href": "https://api.spotify.com/v1/users/my55whm8jotn3kr4c54svsjq4/playlists?offset=0&limit=20",
-    "items": [
-        {
-            "collaborative": false,
-            "description": "New playlist description",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/playlist/3Rw7IAyV5DY1ElJ4DGE5OW"
-            },
-            "href": "https://api.spotify.com/v1/playlists/3Rw7IAyV5DY1ElJ4DGE5OW",
-            "id": "3Rw7IAyV5DY1ElJ4DGE5OW",
-            "images": [
-                
-            ],
-            "name": "New add Playlist 1",
-            "owner": {
-                "display_name": "priya",
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/user/my55whm8jotn3kr4c54svsjq4"
-                },
-                "href": "https://api.spotify.com/v1/users/my55whm8jotn3kr4c54svsjq4",
-                "id": "my55whm8jotn3kr4c54svsjq4",
-                "type": "user",
-                "uri": "spotify:user:my55whm8jotn3kr4c54svsjq4"
-            },
-            "primary_color": null,
-            "public": false,
-            "snapshot_id": "Miw4ZDc5MTkyMzAwNzlkM2RhNjkwZmJiZGI3ODQxNTcxODYyYjVhZWQ3",
-            "tracks": {
-                "href": "https://api.spotify.com/v1/playlists/3Rw7IAyV5DY1ElJ4DGE5OW/tracks",
-                "total": 0
-            },
-            "type": "playlist",
-            "uri": "spotify:playlist:3Rw7IAyV5DY1ElJ4DGE5OW"
-        },
-        {
-            "collaborative": false,
-            "description": "new song",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/playlist/03AFBeCU0TDWa2BlNRLiUu"
-            },
-            "href": "https://api.spotify.com/v1/playlists/03AFBeCU0TDWa2BlNRLiUu",
-            "id": "03AFBeCU0TDWa2BlNRLiUu",
-            "images": [
-                
-            ],
-            "name": "kumar sanu Songs",
-            "owner": {
-                "display_name": "priya",
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/user/my55whm8jotn3kr4c54svsjq4"
-                },
-                "href": "https://api.spotify.com/v1/users/my55whm8jotn3kr4c54svsjq4",
-                "id": "my55whm8jotn3kr4c54svsjq4",
-                "type": "user",
-                "uri": "spotify:user:my55whm8jotn3kr4c54svsjq4"
-            },
-            "primary_color": null,
-            "public": false,
-            "snapshot_id": "MjYsN2IzZjU0MDAxZGNiZGUzMWYxNTEyN2U4ZWEyNDNlYjJhNzFiZTAyMA==",
-            "tracks": {
-                "href": "https://api.spotify.com/v1/playlists/03AFBeCU0TDWa2BlNRLiUu/tracks",
-                "total": 0
-            },
-            "type": "playlist",
-            "uri": "spotify:playlist:03AFBeCU0TDWa2BlNRLiUu"
-        },
-        {
-            "collaborative": false,
-            "description": "New playlist description",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/playlist/2G2osoBM0UfDsU9JIgwYnw"
-            },
-            "href": "https://api.spotify.com/v1/playlists/2G2osoBM0UfDsU9JIgwYnw",
-            "id": "2G2osoBM0UfDsU9JIgwYnw",
-            "images": [
-                
-            ],
-            "name": "My new Playlist 1",
-            "owner": {
-                "display_name": "priya",
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/user/my55whm8jotn3kr4c54svsjq4"
-                },
-                "href": "https://api.spotify.com/v1/users/my55whm8jotn3kr4c54svsjq4",
-                "id": "my55whm8jotn3kr4c54svsjq4",
-                "type": "user",
-                "uri": "spotify:user:my55whm8jotn3kr4c54svsjq4"
-            },
-            "primary_color": null,
-            "public": false,
-            "snapshot_id": "NCwzYWRjMDFmYTA1ZDZkOTEzMTYzN2MxMTcyMDJkZjFlMWZhZTljNjgy",
-            "tracks": {
-                "href": "https://api.spotify.com/v1/playlists/2G2osoBM0UfDsU9JIgwYnw/tracks",
-                "total": 0
-            },
-            "type": "playlist",
-            "uri": "spotify:playlist:2G2osoBM0UfDsU9JIgwYnw"
-        },
-        {
-            "collaborative": false,
-            "description": "New playlist description",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/playlist/6lXnp9tUF166pDcU4Ofr5R"
-            },
-            "href": "https://api.spotify.com/v1/playlists/6lXnp9tUF166pDcU4Ofr5R",
-            "id": "6lXnp9tUF166pDcU4Ofr5R",
-            "images": [
-                
-            ],
-            "name": "New add Playlist 1",
-            "owner": {
-                "display_name": "priya",
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/user/my55whm8jotn3kr4c54svsjq4"
-                },
-                "href": "https://api.spotify.com/v1/users/my55whm8jotn3kr4c54svsjq4",
-                "id": "my55whm8jotn3kr4c54svsjq4",
-                "type": "user",
-                "uri": "spotify:user:my55whm8jotn3kr4c54svsjq4"
-            },
-            "primary_color": null,
-            "public": false,
-            "snapshot_id": "MiwyNmI2ZDA3MDQ5MzRkYTI4MjNlYTgyZjI4MzM5NGNmZjY1Y2IwYjAz",
-            "tracks": {
-                "href": "https://api.spotify.com/v1/playlists/6lXnp9tUF166pDcU4Ofr5R/tracks",
-                "total": 0
-            },
-            "type": "playlist",
-            "uri": "spotify:playlist:6lXnp9tUF166pDcU4Ofr5R"
-        },
-        {
-            "collaborative": false,
-            "description": "New playlist description",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/playlist/34LOw7TpI8uRC5EDUTUFXy"
-            },
-            "href": "https://api.spotify.com/v1/playlists/34LOw7TpI8uRC5EDUTUFXy",
-            "id": "34LOw7TpI8uRC5EDUTUFXy",
-            "images": [
-                
-            ],
-            "name": "New add Playlist 1",
-            "owner": {
-                "display_name": "priya",
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/user/my55whm8jotn3kr4c54svsjq4"
-                },
-                "href": "https://api.spotify.com/v1/users/my55whm8jotn3kr4c54svsjq4",
-                "id": "my55whm8jotn3kr4c54svsjq4",
-                "type": "user",
-                "uri": "spotify:user:my55whm8jotn3kr4c54svsjq4"
-            },
-            "primary_color": null,
-            "public": false,
-            "snapshot_id": "Miw4Yjc1MzNlY2E5ODkxNmQ4YjZhNDFlNzVlOTIyZDhlMmE2MGFjZWUy",
-            "tracks": {
-                "href": "https://api.spotify.com/v1/playlists/34LOw7TpI8uRC5EDUTUFXy/tracks",
-                "total": 0
-            },
-            "type": "playlist",
-            "uri": "spotify:playlist:34LOw7TpI8uRC5EDUTUFXy"
-        },
-        {
-            "collaborative": false,
-            "description": "New playlist description",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/playlist/3diWFPzteoHOSICol94ler"
-            },
-            "href": "https://api.spotify.com/v1/playlists/3diWFPzteoHOSICol94ler",
-            "id": "3diWFPzteoHOSICol94ler",
-            "images": [
-                
-            ],
-            "name": "New add Playlist",
-            "owner": {
-                "display_name": "priya",
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/user/my55whm8jotn3kr4c54svsjq4"
-                },
-                "href": "https://api.spotify.com/v1/users/my55whm8jotn3kr4c54svsjq4",
-                "id": "my55whm8jotn3kr4c54svsjq4",
-                "type": "user",
-                "uri": "spotify:user:my55whm8jotn3kr4c54svsjq4"
-            },
-            "primary_color": null,
-            "public": false,
-            "snapshot_id": "Miw4YjljNjlkNjQzN2E3MjUxN2ExMjIyNDk0MDFjNDkyYWE3YTBlMWZj",
-            "tracks": {
-                "href": "https://api.spotify.com/v1/playlists/3diWFPzteoHOSICol94ler/tracks",
-                "total": 0
-            },
-            "type": "playlist",
-            "uri": "spotify:playlist:3diWFPzteoHOSICol94ler"
-        },
-        {
-            "collaborative": false,
-            "description": "Updated playlist description",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/playlist/6qGrd3sae3c3XSLJ0oLYxX"
-            },
-            "href": "https://api.spotify.com/v1/playlists/6qGrd3sae3c3XSLJ0oLYxX",
-            "id": "6qGrd3sae3c3XSLJ0oLYxX",
-            "images": [
-                
-            ],
-            "name": "New Updated list",
-            "owner": {
-                "display_name": "priya",
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/user/my55whm8jotn3kr4c54svsjq4"
-                },
-                "href": "https://api.spotify.com/v1/users/my55whm8jotn3kr4c54svsjq4",
-                "id": "my55whm8jotn3kr4c54svsjq4",
-                "type": "user",
-                "uri": "spotify:user:my55whm8jotn3kr4c54svsjq4"
-            },
-            "primary_color": null,
-            "public": false,
-            "snapshot_id": "OTIsZTAwYzM3N2RjOWIyZjgxYTYzMmVhYTRlZjk3NjA3NjA2NzVmZTQ4Ng==",
-            "tracks": {
-                "href": "https://api.spotify.com/v1/playlists/6qGrd3sae3c3XSLJ0oLYxX/tracks",
-                "total": 0
-            },
-            "type": "playlist",
-            "uri": "spotify:playlist:6qGrd3sae3c3XSLJ0oLYxX"
-        },
-        {
-            "collaborative": false,
-            "description": "New playlist description",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/playlist/6FoeqnjiYxbT2pFZbGUZbk"
-            },
-            "href": "https://api.spotify.com/v1/playlists/6FoeqnjiYxbT2pFZbGUZbk",
-            "id": "6FoeqnjiYxbT2pFZbGUZbk",
-            "images": [
-                
-            ],
-            "name": "New Playlist",
-            "owner": {
-                "display_name": "priya",
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/user/my55whm8jotn3kr4c54svsjq4"
-                },
-                "href": "https://api.spotify.com/v1/users/my55whm8jotn3kr4c54svsjq4",
-                "id": "my55whm8jotn3kr4c54svsjq4",
-                "type": "user",
-                "uri": "spotify:user:my55whm8jotn3kr4c54svsjq4"
-            },
-            "primary_color": null,
-            "public": false,
-            "snapshot_id": "MixkOWI3NTJlOGU3YWRiYjViNjM3ZWEwNWM5Y2FlZmQ1OTgyNWJhZjNh",
-            "tracks": {
-                "href": "https://api.spotify.com/v1/playlists/6FoeqnjiYxbT2pFZbGUZbk/tracks",
-                "total": 0
-            },
-            "type": "playlist",
-            "uri": "spotify:playlist:6FoeqnjiYxbT2pFZbGUZbk"
-        },
-        {
-            "collaborative": false,
-            "description": "New playlist description",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/playlist/3gUj6CV3tGgyhUFfk0rtaa"
-            },
-            "href": "https://api.spotify.com/v1/playlists/3gUj6CV3tGgyhUFfk0rtaa",
-            "id": "3gUj6CV3tGgyhUFfk0rtaa",
-            "images": [
-                
-            ],
-            "name": "New Playlist",
-            "owner": {
-                "display_name": "priya",
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/user/my55whm8jotn3kr4c54svsjq4"
-                },
-                "href": "https://api.spotify.com/v1/users/my55whm8jotn3kr4c54svsjq4",
-                "id": "my55whm8jotn3kr4c54svsjq4",
-                "type": "user",
-                "uri": "spotify:user:my55whm8jotn3kr4c54svsjq4"
-            },
-            "primary_color": null,
-            "public": false,
-            "snapshot_id": "MiwwMDZjMDViMTM3NTM5ZDI2MjgzZWUxYjA5YWFhYmZlZWE0MzgzNDMy",
-            "tracks": {
-                "href": "https://api.spotify.com/v1/playlists/3gUj6CV3tGgyhUFfk0rtaa/tracks",
-                "total": 0
-            },
-            "type": "playlist",
-            "uri": "spotify:playlist:3gUj6CV3tGgyhUFfk0rtaa"
-        },
-        {
-            "collaborative": false,
-            "description": "New playlist description",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/playlist/6R5v4FpRIwUMwLbL87olUu"
-            },
-            "href": "https://api.spotify.com/v1/playlists/6R5v4FpRIwUMwLbL87olUu",
-            "id": "6R5v4FpRIwUMwLbL87olUu",
-            "images": [
-                
-            ],
-            "name": "New Playlist",
-            "owner": {
-                "display_name": "priya",
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/user/my55whm8jotn3kr4c54svsjq4"
-                },
-                "href": "https://api.spotify.com/v1/users/my55whm8jotn3kr4c54svsjq4",
-                "id": "my55whm8jotn3kr4c54svsjq4",
-                "type": "user",
-                "uri": "spotify:user:my55whm8jotn3kr4c54svsjq4"
-            },
-            "primary_color": null,
-            "public": false,
-            "snapshot_id": "Miw3NGYyZTdmZjhmYjI0NTU5N2Q5NDRkZGEyZDk0NDM2YmYyOGI0MjRk",
-            "tracks": {
-                "href": "https://api.spotify.com/v1/playlists/6R5v4FpRIwUMwLbL87olUu/tracks",
-                "total": 0
-            },
-            "type": "playlist",
-            "uri": "spotify:playlist:6R5v4FpRIwUMwLbL87olUu"
-        },
-        {
-            "collaborative": false,
-            "description": "New playlist description",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/playlist/6Z0LTOGs84vDOH26teZCol"
-            },
-            "href": "https://api.spotify.com/v1/playlists/6Z0LTOGs84vDOH26teZCol",
-            "id": "6Z0LTOGs84vDOH26teZCol",
-            "images": [
-                
-            ],
-            "name": "New Playlist",
-            "owner": {
-                "display_name": "priya",
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/user/my55whm8jotn3kr4c54svsjq4"
-                },
-                "href": "https://api.spotify.com/v1/users/my55whm8jotn3kr4c54svsjq4",
-                "id": "my55whm8jotn3kr4c54svsjq4",
-                "type": "user",
-                "uri": "spotify:user:my55whm8jotn3kr4c54svsjq4"
-            },
-            "primary_color": null,
-            "public": false,
-            "snapshot_id": "MixkZGZmMTI0Yjg3YTExMjkzZDNlNTgyOTBjNDM1NWIzOWI3NDJkMDZk",
-            "tracks": {
-                "href": "https://api.spotify.com/v1/playlists/6Z0LTOGs84vDOH26teZCol/tracks",
-                "total": 0
-            },
-            "type": "playlist",
-            "uri": "spotify:playlist:6Z0LTOGs84vDOH26teZCol"
-        },
-        {
-            "collaborative": false,
-            "description": "New playlist description",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/playlist/4hOaVaUfDfRHfLc0Vxnese"
-            },
-            "href": "https://api.spotify.com/v1/playlists/4hOaVaUfDfRHfLc0Vxnese",
-            "id": "4hOaVaUfDfRHfLc0Vxnese",
-            "images": [
-                
-            ],
-            "name": "New Playlist",
-            "owner": {
-                "display_name": "priya",
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/user/my55whm8jotn3kr4c54svsjq4"
-                },
-                "href": "https://api.spotify.com/v1/users/my55whm8jotn3kr4c54svsjq4",
-                "id": "my55whm8jotn3kr4c54svsjq4",
-                "type": "user",
-                "uri": "spotify:user:my55whm8jotn3kr4c54svsjq4"
-            },
-            "primary_color": null,
-            "public": false,
-            "snapshot_id": "MixmZDkwM2I2ZDk3MDdkZmM0ZDEyOTdiNjcxMzIzMzEyNjRmYjk1ZGVl",
-            "tracks": {
-                "href": "https://api.spotify.com/v1/playlists/4hOaVaUfDfRHfLc0Vxnese/tracks",
-                "total": 0
-            },
-            "type": "playlist",
-            "uri": "spotify:playlist:4hOaVaUfDfRHfLc0Vxnese"
-        },
-        {
-            "collaborative": false,
-            "description": "New playlist description",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/playlist/55WTKdVgl7EIAHhZNhhF1T"
-            },
-            "href": "https://api.spotify.com/v1/playlists/55WTKdVgl7EIAHhZNhhF1T",
-            "id": "55WTKdVgl7EIAHhZNhhF1T",
-            "images": [
-                
-            ],
-            "name": "New Playlist",
-            "owner": {
-                "display_name": "priya",
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/user/my55whm8jotn3kr4c54svsjq4"
-                },
-                "href": "https://api.spotify.com/v1/users/my55whm8jotn3kr4c54svsjq4",
-                "id": "my55whm8jotn3kr4c54svsjq4",
-                "type": "user",
-                "uri": "spotify:user:my55whm8jotn3kr4c54svsjq4"
-            },
-            "primary_color": null,
-            "public": false,
-            "snapshot_id": "MixjMDg0YTMzZmMxYmI1ODZkODI3YTNkN2NiOTEyNTgyNjE2MDgyZDgw",
-            "tracks": {
-                "href": "https://api.spotify.com/v1/playlists/55WTKdVgl7EIAHhZNhhF1T/tracks",
-                "total": 0
-            },
-            "type": "playlist",
-            "uri": "spotify:playlist:55WTKdVgl7EIAHhZNhhF1T"
-        },
-        {
-            "collaborative": false,
-            "description": "New playlist description",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/playlist/4jpK08Lpg4Q3uxY4sMnt5O"
-            },
-            "href": "https://api.spotify.com/v1/playlists/4jpK08Lpg4Q3uxY4sMnt5O",
-            "id": "4jpK08Lpg4Q3uxY4sMnt5O",
-            "images": [
-                
-            ],
-            "name": "new playlist",
-            "owner": {
-                "display_name": "priya",
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/user/my55whm8jotn3kr4c54svsjq4"
-                },
-                "href": "https://api.spotify.com/v1/users/my55whm8jotn3kr4c54svsjq4",
-                "id": "my55whm8jotn3kr4c54svsjq4",
-                "type": "user",
-                "uri": "spotify:user:my55whm8jotn3kr4c54svsjq4"
-            },
-            "primary_color": null,
-            "public": false,
-            "snapshot_id": "Miw0ZmFkZDk1MjliZWU3YTY1YWZiMDljMWE4NTQ1NTdjNDQ4Yzg3Y2Iz",
-            "tracks": {
-                "href": "https://api.spotify.com/v1/playlists/4jpK08Lpg4Q3uxY4sMnt5O/tracks",
-                "total": 0
-            },
-            "type": "playlist",
-            "uri": "spotify:playlist:4jpK08Lpg4Q3uxY4sMnt5O"
-        },
-        {
-            "collaborative": false,
-            "description": "New playlist description",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/playlist/2TEkqJWmngpX0zY7Noj2OO"
-            },
-            "href": "https://api.spotify.com/v1/playlists/2TEkqJWmngpX0zY7Noj2OO",
-            "id": "2TEkqJWmngpX0zY7Noj2OO",
-            "images": [
-                
-            ],
-            "name": "new playlist",
-            "owner": {
-                "display_name": "priya",
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/user/my55whm8jotn3kr4c54svsjq4"
-                },
-                "href": "https://api.spotify.com/v1/users/my55whm8jotn3kr4c54svsjq4",
-                "id": "my55whm8jotn3kr4c54svsjq4",
-                "type": "user",
-                "uri": "spotify:user:my55whm8jotn3kr4c54svsjq4"
-            },
-            "primary_color": null,
-            "public": false,
-            "snapshot_id": "MixiMDIwODMzOGE2NWUxYjIwMDdlMDIwMmI3ZWRiYWJiN2M1NzBhOTgx",
-            "tracks": {
-                "href": "https://api.spotify.com/v1/playlists/2TEkqJWmngpX0zY7Noj2OO/tracks",
-                "total": 0
-            },
-            "type": "playlist",
-            "uri": "spotify:playlist:2TEkqJWmngpX0zY7Noj2OO"
-        },
-        {
-            "collaborative": false,
-            "description": "New playlist description",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/playlist/1wjQtBoOY3YSDMtu29HgfK"
-            },
-            "href": "https://api.spotify.com/v1/playlists/1wjQtBoOY3YSDMtu29HgfK",
-            "id": "1wjQtBoOY3YSDMtu29HgfK",
-            "images": [
-                
-            ],
-            "name": "new playlist",
-            "owner": {
-                "display_name": "priya",
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/user/my55whm8jotn3kr4c54svsjq4"
-                },
-                "href": "https://api.spotify.com/v1/users/my55whm8jotn3kr4c54svsjq4",
-                "id": "my55whm8jotn3kr4c54svsjq4",
-                "type": "user",
-                "uri": "spotify:user:my55whm8jotn3kr4c54svsjq4"
-            },
-            "primary_color": null,
-            "public": false,
-            "snapshot_id": "Miw0OTA3NTg0NDA1YzVkZDVhMGIyMWQ5YjJmOTJmZDdhZTQwZmM4NGNj",
-            "tracks": {
-                "href": "https://api.spotify.com/v1/playlists/1wjQtBoOY3YSDMtu29HgfK/tracks",
-                "total": 0
-            },
-            "type": "playlist",
-            "uri": "spotify:playlist:1wjQtBoOY3YSDMtu29HgfK"
-        },
-        {
-            "collaborative": false,
-            "description": "New playlist description",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/playlist/0SDyq7WdBI099CulPMZ9NM"
-            },
-            "href": "https://api.spotify.com/v1/playlists/0SDyq7WdBI099CulPMZ9NM",
-            "id": "0SDyq7WdBI099CulPMZ9NM",
-            "images": [
-                
-            ],
-            "name": "new playlist",
-            "owner": {
-                "display_name": "priya",
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/user/my55whm8jotn3kr4c54svsjq4"
-                },
-                "href": "https://api.spotify.com/v1/users/my55whm8jotn3kr4c54svsjq4",
-                "id": "my55whm8jotn3kr4c54svsjq4",
-                "type": "user",
-                "uri": "spotify:user:my55whm8jotn3kr4c54svsjq4"
-            },
-            "primary_color": null,
-            "public": false,
-            "snapshot_id": "MiwzMWNhMjY5NjZkMGEzMGU5NzY0OTFmYzljY2FlMTcwOTA1MTlkZmNj",
-            "tracks": {
-                "href": "https://api.spotify.com/v1/playlists/0SDyq7WdBI099CulPMZ9NM/tracks",
-                "total": 0
-            },
-            "type": "playlist",
-            "uri": "spotify:playlist:0SDyq7WdBI099CulPMZ9NM"
-        },
-        {
-            "collaborative": false,
-            "description": "New playlist description",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/playlist/16H7mWDLwkRO5XSj71z7MM"
-            },
-            "href": "https://api.spotify.com/v1/playlists/16H7mWDLwkRO5XSj71z7MM",
-            "id": "16H7mWDLwkRO5XSj71z7MM",
-            "images": [
-                
-            ],
-            "name": "Old",
-            "owner": {
-                "display_name": "priya",
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/user/my55whm8jotn3kr4c54svsjq4"
-                },
-                "href": "https://api.spotify.com/v1/users/my55whm8jotn3kr4c54svsjq4",
-                "id": "my55whm8jotn3kr4c54svsjq4",
-                "type": "user",
-                "uri": "spotify:user:my55whm8jotn3kr4c54svsjq4"
-            },
-            "primary_color": null,
-            "public": false,
-            "snapshot_id": "MixkZTY3MzkwODhjNzJmNzc5N2I2MjcwODUxMGUxNWFhNDE0NTVkMDU0",
-            "tracks": {
-                "href": "https://api.spotify.com/v1/playlists/16H7mWDLwkRO5XSj71z7MM/tracks",
-                "total": 0
-            },
-            "type": "playlist",
-            "uri": "spotify:playlist:16H7mWDLwkRO5XSj71z7MM"
-        },
-        {
-            "collaborative": false,
-            "description": "New playlist description",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/playlist/3bobsAcjYrgdsJEy6iH3Ep"
-            },
-            "href": "https://api.spotify.com/v1/playlists/3bobsAcjYrgdsJEy6iH3Ep",
-            "id": "3bobsAcjYrgdsJEy6iH3Ep",
-            "images": [
-                
-            ],
-            "name": "Old",
-            "owner": {
-                "display_name": "priya",
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/user/my55whm8jotn3kr4c54svsjq4"
-                },
-                "href": "https://api.spotify.com/v1/users/my55whm8jotn3kr4c54svsjq4",
-                "id": "my55whm8jotn3kr4c54svsjq4",
-                "type": "user",
-                "uri": "spotify:user:my55whm8jotn3kr4c54svsjq4"
-            },
-            "primary_color": null,
-            "public": false,
-            "snapshot_id": "Miw1YjJiNmM0NzIyNDM1YjlkOGQzZjUzOTU5OWMzMGE3ZmM3NWIwNjNh",
-            "tracks": {
-                "href": "https://api.spotify.com/v1/playlists/3bobsAcjYrgdsJEy6iH3Ep/tracks",
-                "total": 0
-            },
-            "type": "playlist",
-            "uri": "spotify:playlist:3bobsAcjYrgdsJEy6iH3Ep"
-        },
-        {
-            "collaborative": false,
-            "description": "Updated playlist description",
-            "external_urls": {
-                "spotify": "https://open.spotify.com/playlist/2I8gikXyEgKbtd464lu4G1"
-            },
-            "href": "https://api.spotify.com/v1/playlists/2I8gikXyEgKbtd464lu4G1",
-            "id": "2I8gikXyEgKbtd464lu4G1",
-            "images": [
-                
-            ],
-            "name": "New Playlist Name",
-            "owner": {
-                "display_name": "priya",
-                "external_urls": {
-                    "spotify": "https://open.spotify.com/user/my55whm8jotn3kr4c54svsjq4"
-                },
-                "href": "https://api.spotify.com/v1/users/my55whm8jotn3kr4c54svsjq4",
-                "id": "my55whm8jotn3kr4c54svsjq4",
-                "type": "user",
-                "uri": "spotify:user:my55whm8jotn3kr4c54svsjq4"
-            },
-            "primary_color": null,
-            "public": false,
-            "snapshot_id": "MTEsYmNlNzJlNDZkOTFmNGEwOWJiMWNhZDg0ZTViZGFiNDc1NDY2MjBlOQ==",
-            "tracks": {
-                "href": "https://api.spotify.com/v1/playlists/2I8gikXyEgKbtd464lu4G1/tracks",
-                "total": 0
-            },
-            "type": "playlist",
-            "uri": "spotify:playlist:2I8gikXyEgKbtd464lu4G1"
-        }
-    ],
-    "limit": 20,
-    "next": "https://api.spotify.com/v1/users/my55whm8jotn3kr4c54svsjq4/playlists?offset=20&limit=20",
-    "offset": 0,
-    "previous": null,
-    "total": 30
-}
-Playlist count: 30
-palylist id: 03AFBeCU0TDWa2BlNRLiUu
+  <testcase name="givenMethodForGetId" classname="SpotifyTest" time="3.564">
+    <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;401&gt;.
 
---------playlist is Updated--------
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:237)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:115)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:127)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:156)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:156)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at SpotifyTest.givenMethodForGetId(SpotifyTest.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:106)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+  </testcase>
+  <system-out><![CDATA[{
+    "error": {
+        "status": 401,
+        "message": "The access token expired"
+    }
+}
+null
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -84,7 +84,7 @@ public class SpotifyTest {
         ResponseBody responseBody = responseOfPlaylist.getBody();
         Object jsonElement = new JsonParser().parse(responseBody.prettyPrint());
         responseOfPlaylist.then().assertThat().statusCode(200);
-        System.out.println("--------playlist is Updated--------");
+
     }
 
 }

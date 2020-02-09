@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a65c0d6-c075-451d-944b-6deda647f5b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
@@ -55,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SpotifyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="79" column="24" lean-forward="true" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="24" />
+            <state relative-caret-position="444">
+              <caret line="86" selection-start-line="86" selection-end-line="86" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,7 +104,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,6 +133,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -154,7 +153,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.SpotifyTest.givenMethodForGettingPlaylistCount">
+  <component name="RunManager" selected="Gradle.SpotifyTest.givenMethodForGetId">
     <configuration name="SpotifyTest.givenMethodCreatePlayList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -215,12 +214,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SpotifyTest.givenMethodForPlaylistCount" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SpotifyTest.givenMethodForGettingPlaylistCountAndUpdatePlayList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;SpotifyTest.givenMethodForPlaylistCount&quot;" />
+        <option name="scriptParameters" value="--tests &quot;SpotifyTest.givenMethodForGettingPlaylistCountAndUpdatePlayList&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -257,11 +256,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SpotifyTest.givenMethodForGettingPlaylistCount" />
         <item itemvalue="Gradle.SpotifyTest.givenMethodForGetId" />
+        <item itemvalue="Gradle.SpotifyTest.givenMethodForGettingPlaylistCountAndUpdatePlayList" />
+        <item itemvalue="Gradle.SpotifyTest.givenMethodForGettingPlaylistCount" />
         <item itemvalue="Gradle.SpotifyTest.givenMethodForUpdatePlayList" />
         <item itemvalue="Gradle.SpotifyTest.givenMethodCreatePlayList" />
-        <item itemvalue="Gradle.SpotifyTest.givenMethodForPlaylistCount" />
       </list>
     </recent_temporary>
   </component>
@@ -279,27 +278,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpotifyTest_givenMethodForGettingPlaylistCount - 2020.02.08 at 12h 12m 20s.xml">
-      <configuration name="SpotifyTest.givenMethodForGettingPlaylistCount" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SpotifyTest_givenMethodForGettingPlaylistCount - 2020.02.08 at 12h 14m 04s.xml">
-      <configuration name="SpotifyTest.givenMethodForGettingPlaylistCount" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SpotifyTest_givenMethodForGetId - 2020.02.08 at 12h 19m 13s.xml">
-      <configuration name="SpotifyTest.givenMethodForGetId" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SpotifyTest_givenMethodForGettingPlaylistCount - 2020.02.08 at 12h 19m 28s.xml">
-      <configuration name="SpotifyTest.givenMethodForGettingPlaylistCount" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SpotifyTest_givenMethodForGettingPlaylistCount - 2020.02.08 at 12h 24m 46s.xml">
-      <configuration name="SpotifyTest.givenMethodForGettingPlaylistCount" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SpotifyTest_givenMethodForGettingPlaylistCount - 2020.02.08 at 12h 28m 04s.xml">
-      <configuration name="SpotifyTest.givenMethodForGettingPlaylistCount" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SpotifyTest_givenMethodForGettingPlaylistCount - 2020.02.08 at 12h 32m 30s.xml">
-      <configuration name="SpotifyTest.givenMethodForGettingPlaylistCount" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="SpotifyTest_givenMethodForGettingPlaylistCount - 2020.02.08 at 12h 35m 13s.xml">
       <configuration name="SpotifyTest.givenMethodForGettingPlaylistCount" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -309,12 +287,32 @@
     <history-entry file="SpotifyTest_givenMethodForGettingPlaylistCount - 2020.02.08 at 12h 40m 34s.xml">
       <configuration name="SpotifyTest.givenMethodForGettingPlaylistCount" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="SpotifyTest_givenMethodForGettingPlaylistCount - 2020.02.08 at 12h 49m 14s.xml">
+      <configuration name="SpotifyTest.givenMethodForGettingPlaylistCount" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="SpotifyTest_givenMethodForGettingPlaylistCount - 2020.02.08 at 12h 49m 49s.xml">
+      <configuration name="SpotifyTest.givenMethodForGettingPlaylistCount" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="SpotifyTest_givenMethodForGettingPlaylistCount - 2020.02.08 at 12h 51m 27s.xml">
+      <configuration name="SpotifyTest.givenMethodForGettingPlaylistCount" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="SpotifyTest_givenMethodForGettingPlaylistCount - 2020.02.08 at 12h 54m 08s.xml">
+      <configuration name="SpotifyTest.givenMethodForGettingPlaylistCount" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="SpotifyTest_givenMethodForGettingPlaylistCount - 2020.02.08 at 12h 54m 58s.xml">
+      <configuration name="SpotifyTest.givenMethodForGettingPlaylistCount" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="SpotifyTest_givenMethodForGettingPlaylistCountAndUpdatePlayList - 2020.02.08 at 23h 15m 53s.xml">
+      <configuration name="SpotifyTest.givenMethodForGettingPlaylistCountAndUpdatePlayList" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="SpotifyTest_givenMethodForGetId - 2020.02.08 at 23h 16m 16s.xml">
+      <configuration name="SpotifyTest.givenMethodForGetId" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25379092" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27134877" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -324,13 +322,13 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49960095" visible="true" weight="0.09120521" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960095" weight="0.048859935" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.048859935" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.048701297" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50039905" side_tool="true" weight="0.6319218" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32954547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -371,20 +369,20 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SpotifyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SpotifyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="79" column="24" lean-forward="true" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
